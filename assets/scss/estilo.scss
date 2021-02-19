@@ -1,0 +1,29 @@
+
+header{
+    margin-top: 80px;
+    .nav--background{
+        background-color: #f1ba8a;
+
+    }
+
+}
+.card:hover{
+    color: cornsilk;
+    background-color: rgba(79, 71, 80, 0.788);
+}
+.section__titulo--estilo{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(218, 139, 125) ;
+    font-style: italic !important;
+    font-weight: bolder;
+}
+.btn--rosa{
+    background-color: #b87a7a
+}
+.btn__texto--colo{
+    color: blanchedalmond;
+}
+
+section{
+    margin-bottom: 45px;
+}

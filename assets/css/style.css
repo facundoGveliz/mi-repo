@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(218, 139, 125) ;
+    font-style: italic !important;
+    font-weight: bolder;
+}
+
+.textoPortada{
+    position: absolute;
+    top: 27%;
+    right: 40%;
+}
+
+header{
+    margin-top: 80px;
+}
+
+.colorNav{
+    background-color: #f1ba8a;
+}
+.colorBtn{
+    color: blanchedalmond;
+    background-color: #b87a7a;}
+
+.card:hover{
+    color: cornsilk;
+    background-color: rgba(79, 71, 80, 0.788);
+}
+
+
+@media (max-width: 768px){
+    *{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px){
+    *{
+        font-size: 20px;
+    }
+}
